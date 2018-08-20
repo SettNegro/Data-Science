@@ -11,7 +11,7 @@ Y = ['male', 'female', 'female', 'female', 'female', 'male', 'male', 'male', 'ma
 
 clf = tree.DecisionTreeClassifier()#initialization of the decision tree by calling the decision tree classifier method and clf is now a tree variable
 
-clf = clf.fit(X,Y) #train the classifier with fit method that trains the 
+clf = clf.fit(X,Y) #train the classifier with fit method 
 
 prediction = clf.predict([[156,45,34], [170,42,38]])
 print(prediction)
